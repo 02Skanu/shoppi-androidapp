@@ -16,4 +16,8 @@
     </style>
 
     <style name="Theme.Shoppiandroidapp" parent="Base.Theme.Shoppiandroidapp" />
+
+    <style name="Theme.Shoppiandroidapp.Splash">
+        <item name="android:windowBackground">@drawable/background_splash_screen</item>
+    </style>
 </resources>
