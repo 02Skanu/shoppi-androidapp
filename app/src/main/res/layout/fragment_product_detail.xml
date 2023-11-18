@@ -13,7 +13,6 @@
         android:background="@color/shoppi_white">
 
         <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar_product_detail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_scrollFlags="scroll|enterAlways"
@@ -124,7 +123,6 @@
                 app:layout_constraintTop_toBottomOf="@id/view_divider_product" />
 
             <ImageView
-                android:id="@+id/iv_product_detail_image"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="24dp"
