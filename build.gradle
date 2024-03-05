@@ -6,5 +6,10 @@ plugins {
 }
 
 ext {
-    navVersion = '2.3.5'
+    navVersion = '2.7.6'
+    glideVersion = '4.14.2'
+}
+
+task clean(type: Delete){
+    delete rootProject.buildDir
 }
